@@ -34,5 +34,4 @@ stage('EmailNotification')
 {
     emailext body: 'This is a sample mail to test Jenkins Pipeline report', subject: 'Jenkins Pipeline Scripted way', to: 'maheswarimadhavan@gmail.com'
 }
-
 }
